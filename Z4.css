@@ -1,0 +1,152 @@
+@media (max-width:760px) {
+
+    #nav-bar li {
+        display:block;
+    }
+        #nav-bar ul {
+        margin-left:20px;
+    }
+    .First-Section header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+
+
+    
+        
+    }
+    body{
+        font-family: sans-serif;
+        background-color:blanchedalmond;
+        background-image: url(https://images.unsplash.com/photo-1517502166878-35c93a0072f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHRzaGlydCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+        color:black;
+        box-sizing: border-box;
+       
+    }
+    .First-Section header {
+        margin:-10px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        background: linear-gradient(
+            gray,
+            white,
+            gray
+        );    
+        margin-bottom: 30px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+
+    #header-img{
+        top: 0;
+        left:0;
+        position:absolute;
+        width:50px;
+        height:49px;
+      }
+
+    li{
+        list-style: none;
+        display: inline-block;
+        margin-right:45px;
+        
+    } 
+    a:hover{
+        background-color:black;
+        color:white;
+        border-radius:7px;
+        padding:5px;
+        border:1px solid white;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    article h2,p{
+    
+        margin-left: 9px;  
+    }
+    article p{
+        font-weight: 600;
+    }
+
+    .mens{
+        margin-top: 50px;
+    }
+    .ladies{
+        margin-top: 50px;
+    }
+
+    
+    .Second-Section img{
+        width:350px;
+        height:250px;
+        border-radius:25px;
+        padding-right:auto;
+        padding-left:auto;
+    }
+
+    .Second-Section img:hover {
+        rotate: 4deg;
+        transition: all 0.5s;
+        transform: scale(1.04);
+    }
+
+    #Form{
+        background-color: rgba(0,0,0,0.4);
+        padding:20px;
+        border-radius:3px;
+        margin:10px -10px -10px -10px;
+        text-align: center;
+        width: 100%;
+    }
+    #email{
+        border-radius: 5px;
+    }
+    #submit{
+        border-radius: 15px;
+    }
+    #submit:hover{
+        box-shadow: 0 0 65px 0 aqua;
+        background: linear-gradient(
+            #00007D,
+            #2B2BFD,
+            #00007D
+        );
+        font-size:medium;
+        
+    }
+
+    .Second-Section > h2 {
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .Second-Section article{
+        border-style: groove;
+        padding-bottom: 40px;
+        display: inline-block;
+        background-color: rgba(255,69,0,0.5);
+        
+    }
+    .Second-Section{
+        margin-top: 100px;
+    }
+
+    .images 
+{
+        display:grid;
+        row-gap: 10px;
+        column-gap: 10px;
+        grid-template-columns: repeat(3 , 1fr);
+
+    }
+   

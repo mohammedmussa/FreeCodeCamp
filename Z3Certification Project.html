@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        <link rel="stylesheet" href="Z3.css">
+    </head>
+    <body>
+     
+        <nav id="navbar">          
+                <header>
+                    <h1>HTML Documention</h1>
+                </header>   
+            
+            <ul>
+                
+                <li>
+                    <a class="nav-link" href="#Introduction">Introduction</a>
+                </li>
+            
+                <li>
+                    <a class="nav-link" href="#Basic_Structure">Basic Structure</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Headings">Headings</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Paragraphs">Paragraphs</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Links">Links</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Images">Images</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Lists">Lists</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Forms">Forms</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Tables">Tables</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Divs">Divs</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Comments">Comments</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#Conclusion">Conclusion</a>
+                </li>
+            </ul>
+        
+        </nav>
+    
+        
+        <main id="main-doc">
+            <section id="Introduction" class="main-section">
+                <header>
+                    <h1>Introduction</h1>
+                </header>
+                <article>
+                    <p>
+                        <!-- The &lt; entity represents the less-than sign, and the &gt; entity represents the greater-than sign.  -->
+                        HTML (HyperText Markup Language) is the standard markup language used to create web pages. HTML documents are made up of a series of tags, which tell the browser how to display the content. HTML tags are enclosed in angle brackets, like this: <strong>&lt;tagname&gt;</strong> . Most HTML tags come in pairs: an opening tag, like <strong>&lt;html&gt</strong>, and a closing tag, like <strong>&lt;/html&gt</strong>. The text between the opening and closing tags is the content of the element.
+                    </p>
+                    <p>
+                        HTML5 is the latest version of HTML and is widely used for web development. In this document, we'll cover the basics of HTML5, including the most commonly used tags and attributes.
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <strong>Creating web pages:</strong> HTML is the backbone of web pages. It defines the structure and content of a webpage, including headings, paragraphs, images, links, and more.  
+                            </li>
+                            <li>
+                                <strong>Creating forms:</strong> HTML is used to create forms that allow users to submit information, such as login credentials or contact information.
+                            </li>
+                            <li>
+                                <strong>Displaying multimedia:</strong> HTML allows developers to embed multimedia, such as images, videos, and audio files, on a web page.
+                            </li>
+                            <li>
+                                <strong>Creating tables:</strong> HTML can be used to create tables to organize data in a structured format.
+                            </li>
+                            <li>
+                                <strong>Enhancing accessibility:</strong> HTML can be used to improve accessibility by including semantic markup that helps screen readers and other assistive technologies understand the content of a web page.
+                            </li>
+                            
+
+
+                        </ul>
+                    </p>
+                </article>
+            </section>
+            <section id="Basic_Structure" class="main-section">
+                <header>
+                <h1>Basic Structure</h1>
+            </header>
+                <article>
+                    <p>
+                        The basic structure of an HTML document includes the doctype, head, and body elements. The doctype is used to tell the browser which version of HTML is being used, the head element contains metadata about the document, and the body element contains the content of the document.   
+                    </p>
+                    <p class="example">Example</p>
+                    <div class="code">
+                    <code>
+                        &lt;!DOCTYPE html&gt;<br>
+                        &lt;html&gt;<br>
+                        &lt;head&gt;<br>
+                        &lt;title&gt;My Web Page&lt;/title&gt;<br>
+                        &lt;/head&gt;<br>
+                        &lt;body&gt;<br>
+                        &lt;h1&gt;Welcome to my web page&lt;/h1&gt;<br>
+                        &lt;p&gt;This is the content of my web page&lt;/p&gt;<br>
+                        &lt;/body&gt;<br>
+                        &lt;/html&gt;
+                    </code>
+                </div>
+                        
+                    </p>
+                </article>
+            </section>
+            <section id="Headings" class="main-section">
+                <header>
+                <h1>Headings</h1>
+                </header>
+                <article>
+                    <p>
+                        Headings are used to organize content into sections, and they range in size from H1 to H6. The H1 element is used for the main heading of the page, while the H2 to H6 elements are used for subheadings.   
+                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                        &lt;h1&gt;Main Heading&lt;/h1&gt;<br>
+                        &lt;h2&gt;Subheading 1&lt;/h2&gt;<br>
+                        &lt;h3&gt;Subheading 2&lt;/h3&gt;<br>
+                    </code>
+                </article>
+
+            </section>
+            <section id="Paragraphs" class="main-section">
+                <header>                                
+                <h1>Paragraphs</h1>
+                </header>
+                <article>
+                    <p>
+                        The P tag is used to create paragraphs of text. Paragraphs are the most basic way to display blocks of text in HTML.                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                        &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+                    </code>
+                </article>
+            </section>
+            <section id="Links" class="main-section">
+                <header>
+                    <h1>Links</h1>
+                </header>
+                <article>
+                    <p>
+                        Links are used to connect web pages together or to other types of content. The A tag is used to create links, and the HREF attribute is used to specify the URL of the link.
+                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                        &lt;a href="http://www.example.com"&gt;Link Text&lt;/a&gt;
+                    </code>
+                </article>
+            </section>
+            <section id="Images" class="main-section">
+                <header>
+                    <h1>Images</h1>
+                </header>
+                <article>
+                    <p>
+                        The IMG tag is used to insert images into web pages. The SRC attribute is used to specify the URL of the image, and the ALT attribute is used to provide a text description of the image for users who cannot see it.
+                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                        &lt;img src="example.jpg" alt="Example Image"&gt;
+
+                    </code>
+                </article>
+            </section>
+            <section id="Lists" class="main-section">
+                <header>
+                <h1>Lists</h1>
+                </header>
+                <article>
+                    <p>
+                        There are two types of lists in HTML: ordered and unordered. The OL tag is used to create an ordered list, while the UL tag is used to create an unordered list. List items are created using the LI tag.
+                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                        &lt;ul&gt;<br>
+                            &lt;li&gt;Item 1&lt;/li&gt;<br>
+                            &lt;li&gt;Item 2&lt;/li&gt;<br>
+                            &lt;li&gt;Item 3&lt;/li&gt;<br>
+                          &lt;/ul&gt;
+                          
+                    </code>
+
+                </article>
+            </section>
+            <section id="Forms" class="main-section">
+            <header>
+                <h1>Forms</h1>
+            </header>
+                <article>
+                    <p>
+                        Forms are used to collect information from users. The FORM tag is used to create a form, and various input elements (such as text boxes, checkboxes, and radio buttons) are used to collect information from users.
+                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                        &lt;form action="submit.php" method="post"&gt;<br>
+                            &lt;label for="name"&gt;Name:&lt;/label&gt;<br>
+                            &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;<br>
+                          
+                            &lt;label for="email"&gt;Email:&lt;/label&gt;<br>
+                            &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;<br>
+                          
+                            &lt;input type="submit" value="Submit"&gt;<br>
+                          &lt;/form&gt;
+                    </code>
+
+                </article>
+            </section>
+            <section id="Tables" class="main-section">
+            <header>
+                <h1>Tables</h1>
+            </header>
+                <article>
+                    <p>
+                        The TABLE tag is used to create a table, and the TR tag is used to create table rows. TD tags are used to create table data cells, and TH tags are used to create table header cells.
+                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                        &lt;table&gt;<br>
+                            &lt;tr&gt;
+                              &lt;th&gt;Header 1&lt;/th&gt;<br>
+                              &lt;th&gt;Header 2&lt;/th&gt;<br>
+                              &lt;th&gt;Header 3&lt;/th&gt;<br>
+                            &lt;/tr&gt;<br>
+                            &lt;tr&gt;<br>
+                              &lt;td&gt;Row 1, Column 1&lt;/td&gt;<br>
+                              &lt;td&gt;Row 1, Column 2&lt;/td&gt;<br>
+                              &lt;td&gt;Row 1, Column 3&lt;/td&gt;<br>
+                            &lt;/tr&gt;<br>
+                            &lt;tr&gt;<br>
+                              &lt;td&gt;Row 2, Column 1&lt;/td&gt;<br>
+                              &lt;td&gt;Row 2, Column 2&lt;/td&gt;<br>
+                              &lt;td&gt;Row 2, Column 3&lt;/td&gt;<br>
+                            &lt;/tr&gt;<br>
+                          &lt;/table&gt;
+                    </code>
+                </article>
+            </section>
+            <section id="Divs" class="main-section">
+            <header>
+                <h1>Divs</h1>
+            </header>
+                <article>
+                    <p>
+                        The DIV tag is used to group content together and apply styles to the group as a whole. Divs are commonly used to create sections of a web page.
+                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                        &lt;div class="section"&gt;<br>
+                            &lt;h2&gt;Section Heading&lt;/h2&gt;<br>
+                            &lt;p&gt;This is the content of the section.&lt;/p&gt;<br>
+                          &lt;/div&gt;
+                          
+                    </code>
+                </article>
+            </section>
+            <section id="Comments" class="main-section">
+            <header>
+                <h1>Comments</h1>
+            </header>
+                <article>
+                    <p>
+                        Comments can be added to HTML code to provide notes or explanations. Comments are not displayed in the browser, and can only be seen by looking at the source code
+                    </p>
+                    <p class="example">
+                        Example:
+                    </p>
+                    <code>
+                       &lt;!-- This is a comment --&gt; 
+                    </code>
+                </article>
+            </section>
+            <section id="Conclusion" class="main-section">
+            <header>
+                <h1>Conclusion</h1>
+            </header>
+                <article>
+                    <p>
+                        HTML is a powerful tool for creating web pages, and the tags and attributes covered in this document are just the tip of the iceberg. By mastering HTML, you can create dynamic, engaging, and responsive web pages that look great on any device. Keep learning and experimenting, and you'll be on your way to becoming an HTML expert in no time!
+                    </p>
+                </article>
+            </section>
+
+        </main>
+    </body>
+</html>

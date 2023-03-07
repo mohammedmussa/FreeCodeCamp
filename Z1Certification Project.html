@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,initial-scale=1.0"> 
+<title>Survey Form</title>
+<link rel="stylesheet" href="Z1.css"/>
+</head>
+
+    <body>
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to give us your feedback. </p>
+            
+        </header>
+      <div class="container">
+            <form id="survey-form">
+                <section>
+                   <label for="name-label">Name <input id="name" name="text" type="text" placeholder="Enter your name" required/></label>
+                   <label for="email-label">Email <input id="email" name="email" type="email" placeholder="Enter your Email" required/></label>
+                   <label for="number-label">Age (optional) <input id="number" name="number" type="number" placeholder="Age"min="15" max="100"/></label>
+
+                  <label for="option-label">What is your Mobile Phone Brand name?
+                     <select>
+                         <option disabled selected value>Select Options</option>
+                         <option>Samsung</option>
+                         <option>Sony</option>
+                         <option>Motorolla</option>
+                         <option>Other</option>
+                     </select>
+                  </label>
+
+                  
+                </section>
+
+                <section>
+                    <p>Where Did you buy?</p>
+                    <label for="radio-label"><input type="radio" class="inline" name="radio" value="first"/>Amazon</label>
+                    <label for="radio-label"><input type="radio" class="inline" name="radio" value="second"/>Alibaba</label>
+                    <label for="radio-label"><input type="radio" class="inline" name="radio" value="second"/>Other Shop</label>
+
+                 <div class="cap">
+                    <label for="optiontwo-label">When did you buy?
+                        <select id="dropdown" name="opt">
+                            <option disabled selected value>Select option</option>
+                            <option>2023</option>
+                            <option>2022</option>
+                            <option>2021</option>
+                            <option>2020</option>
+                        </select>
+                    </label>
+                  </div>
+
+
+
+                </section>
+
+                <section >
+                    <p>Which phone accessories do you want?</p>
+                    <label for="checkbox-label"><input type="checkbox" class="inline" name="checkbox"  value="Cases"/>Cases</label>
+                    <label for="checkbox-label"><input type="checkbox" class="inline" name="checkbox"  value="Chargers"/>Chargers</label>
+                    <label for="checkbox-label"><input type="checkbox" class="inline" name="checkbox"  value="Glasses"/>Glasses</label>
+                    <label for="checkbox-label"><input type="checkbox" class="inline" name="checkbox"  value="Wireless"/>Wireless Chargers</label>
+                    <label for="checkbox-label"><input type="checkbox" class="inline"name="checkbox"  value="Battery"/>Battery</label>
+
+                </section>
+
+                <section>
+                    
+                    <label for="textArea-label">Comments
+                      <textarea name="comment" rows="3" cols="30"placeholder="Enter your comment here..."></textarea>
+                    </label>
+                    <input class="submit" type="submit" value="Submit"/>
+
+                </section>
+
+
+            </form>  
+      </div> 
+    </body>
+</html>
